@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8/>
+<title>Contact</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<header>
+<h1>CS Valley Trading and Projects (PTY) LTD</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html" class="active">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>Contact Us</h2>
+
+<form action="ContactServlet" method="post">
+
+<label>Full Name</label>
+<input type="text" name="name" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<label>Message</label>
+<textarea name="message" rows="5" required></textarea>
+
+<button type="submit">Send Request</button>
+
+</form>
+
+<br>
+
+<p><strong>Phone:</strong> 082 726 7703 / 076 429 5396</p>
+<p><strong>Email:</strong> csvalleyprojects@gmail.com</p>
+
+</div><section class="location-section">
+
+<div class="location-container">
+
+<h2>Our Location</h2>
+
+<div class="location-info">
+<p><strong>CS Valley Trading and Projects (PTY) LTD</strong></p>
+<p>Stand No 45, Ga Manyaka Village</p>
+<p>Driekop 1129, South Africa</p>
+
+<a href="https://www.google.com/maps/dir/?api=1&destination=Ga+Manyaka+Village+Driekop+1129" target="_blank">
+<button class="direction-btn">Get Directions</button>
+</a>
+</div>
+
+<div class="map-box" id="googleMap"></div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 CS Valley Trading and Projects</p>
+</footer>
+
+</body>
+</html>
